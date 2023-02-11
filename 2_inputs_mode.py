@@ -33,7 +33,7 @@ xs2 = xs[:, 1]
 xs1, xs2 = np.meshgrid(xs1, xs2)
 
 
-for j in range(500):
+for j in range(5000):
     for i in range(m):
         x1 = xs[i, 0]
         x2 = xs[i, 1]
